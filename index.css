@@ -1,0 +1,212 @@
+
+
+.img-container{
+    position:relative;
+    min-height: 500px;
+    width: 100%;
+    background-image: url('https://live.staticflickr.com/6124/5961691034_dd00bca30d_b.jpg');
+    background-size: cover;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+.img-text{
+position: absolute;
+left: 10%;
+top:12%;
+}
+.img-pra-text{
+    
+  color:white
+}
+.img-text :not(p){
+  font-size: 3rem;
+
+}
+.img-text h2{
+  margin-bottom: 0;
+}
+#min{
+  position: absolute;
+  left:65%;
+  top:50%;
+  font-size: 4rem;
+}
+.card{
+margin: 4% 8%;
+}
+.card > div {
+  min-height:500px;
+}
+.card-img-1{
+  background-image: url('https://www.goworldtravel.com/wp-content/uploads/2020/06/baros-maldives.jpg');
+  min-height: 200px;
+  background-size: cover;
+}
+
+.card-img-2{
+  background-image: url('https://www.planetware.com/wpimages/2020/04/world-most-beautiful-islands-whitsunday-islands-australia.jpg');
+  min-height: 200px;
+  background-size: cover;
+}
+.card-img-3{
+  background-image: url('https://img.theculturetrip.com/wp-content/uploads/2018/02/shutterstock_106262990.jpg');
+  min-height: 200px;
+  background-size: cover;
+}
+.card-img-4{
+  background-image: url('https://mlclell2icph.i.optimole.com/6Nm7MDo.mh7h~566c/w:1280/h:814/q:80/https://www.islands.com/wp-content/uploads/sites/13/2021/09/most-beautiful-islands-world-04-james-bond-island-shutterstock_326691044.jpg');
+  min-height: 200px;
+  background-size: cover;
+}
+.card-img-5{
+  background-image: url('https://www.oliverstravels.com/blog/wp-content/uploads/2015/09/beautiful-white-sand-beach-in-saint-lucia-caribbean-islands-picture-id909821450-1.jpg');
+  min-height: 200px;
+  background-size: cover;
+}
+.card-img-6{
+  background-image: url('https://cdn.wallpapersafari.com/63/30/75A2Pw.jpg');
+  min-height: 200px;
+  background-size: cover;
+}
+.card-img-7{
+  background-image: url('https://www.planetware.com/photos-large/SEY/best-islands-cook-islands.jpg');
+  min-height: 200px;
+  background-size: cover;
+}
+.card-img-8{
+  background-image: url('https://i.pinimg.com/originals/35/0a/0d/350a0d60acf690b3cb27887bdc60205b.jpg');
+  min-height: 200px;
+  background-size: cover;
+}
+
+.footer{
+  background-color: #393939;
+  color: white
+}
+
+
+/* From Registre */
+* {box-sizing: border-box}
+
+/* style the container */
+.container {
+  position: relative;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px 0 30px 0;
+}
+
+/* style inputs and link buttons */
+input,
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+/* add appropriate colors to fb, twitter and google buttons */
+.fb {
+  background-color: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background-color: #55ACEE;
+  color: white;
+}
+
+.google {
+  background-color: #dd4b39;
+  color: white;
+}
+
+/* style the submit button */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Two-column layout */
+.col {
+  float: left;
+  width: 50%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* vertical line */
+.vl {
+  position: absolute;
+  left: 50%;
+  top:28%;
+  transform: translate(-50%);
+  border: 2px solid #ddd;
+  height: 175px;
+
+}
+
+/* text inside the vertical line */
+.inner {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  padding: 8px 10px;
+}
+
+/* hide some text on medium and large screens */
+.hide-md-lg {
+  display: none;
+}
+
+/* bottom container */
+.bottom-container {
+  text-align: center;
+  background-color: #666;
+  border-radius: 0px 0px 4px 4px;
+}
+
+/* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 650px) {
+  .col {
+    width: 100%;
+    margin-top: 0;
+  }
+  /* hide the vertical line */
+  .vl {
+    display: none;
+  }
+  /* show the hidden text on small screens */
+  .hide-md-lg {
+    display: block;
+    text-align: center;
+  }
+}
